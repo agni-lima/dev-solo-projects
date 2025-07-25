@@ -1,0 +1,143 @@
+/*--This project is designed by Dribbble with a few minor alterations done by me, you can find the original UI design here: https://dribbble.com/shots/18124149-Daily-UI-Design-Challenge-07-100-Newsletter-signup-box */
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#home {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    height: 100vh; /* Full viewport height */
+}
+.card {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    width: 400px;
+    height: 400px;
+    font-family: "IBM Plex Mono", monospace;  
+    text-align: start;
+    background-color: #ffffff; /* Light background for contrast */
+    border: 1.5px solid #000000;
+    border-radius: 5px; /* Rounded corners */
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.title {
+    font-weight: bold; /* Bold text for emphasis */
+    margin-bottom: 20px; /* Space between title and text */
+}
+.input-container {
+    display: flex; /* Enables flexbox layout */
+    gap: 10px; /* Space between input fields */
+    margin-top: 20px;
+}
+
+#email {
+    width: 300px; /* Full width input */
+    height: 40px; /* Fixed height for consistency */
+    line-height: 40px; /* Center text vertically */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+    padding-left: 10px; /* Padding for text */
+}
+#btn {
+    width: 100px; /* Full width button */
+    height: 40px; /* Fixed height for consistency */
+    line-height: 40px; /* Center text vertically */
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.copywrite {
+    margin-top: 40px; 
+    font-size: 12px; 
+    color: #000000; /* Black text */
+    text-align: center; /* Centered text */
+}
